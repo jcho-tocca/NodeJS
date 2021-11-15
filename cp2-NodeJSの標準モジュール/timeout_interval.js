@@ -1,4 +1,4 @@
-// 반복
+// 反復
 function sayGoodbye(who) {
    console.log('Good bye', who);   
 }

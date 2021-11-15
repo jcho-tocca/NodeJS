@@ -1,5 +1,5 @@
-var intVal = 3;
-var obj = {
+let intVal = 3;
+let obj = {
 	name : 'NodeJS',
 	how : 'Interesting'
 };

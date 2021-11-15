@@ -1,11 +1,11 @@
 process.on('exit', function() {
-   console.log('Exit 이벤트. on!');
+   console.log('Exit イベント. on!');
 });
 
-// 한번만 동작
+// 一回のみ
 process.once('exit', function() {
-	console.log('Exit 이벤트. once!');
+	console.log('Exit イベント. once!');
 });
 
 process.emit('exit');
-process.emit('exit', 0);  // 리스너 함수의 파라미터로 0 전달
+process.emit('exit', 0);  // リスナー関数の引数 0
